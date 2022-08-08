@@ -40,9 +40,6 @@
   41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
   100px 100px 80px rgba(0, 0, 0, 0.07);
 }
-.row{
-  /* border: yellow solid; */
-}
 .carousel-inner{
   border: black solid 5px;
   background-color: whitesmoke;
@@ -123,10 +120,6 @@
   background-color: black;
 }
 
-.fa-solid{
-  /* font-size: 80%; */
-  /* border: solid red; */
-}
 .center{
   text-align: center;
 }

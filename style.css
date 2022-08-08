@@ -1,0 +1,154 @@
+
+
+.body{
+  background-image: url(https://img.freepik.com/free-photo/paper-texture_1194-5999.jpg?w=2000&t=st=1659905176~exp=1659905776~hmac=575645f30ad07b5b4292c5ee16a47d5bab409e7d1e0944c9b6a2ba6e69fb4365);
+  text-align: center;
+  /* font-family: 'Montserrat Alternates', sans-serif; */
+  /* font-family: 'Press Start 2P', cursive; */
+  /* font-family: 'Space Mono', monospace; */
+
+}
+.carousel .carousel-indicators li {
+  background-color: gray;
+}
+.carousel .carousel-indicators li.active {
+  background-color: black;
+}
+.carousel .carousel-control-prev-icon {
+  color: black;
+}
+
+
+.container {
+  position: relative;
+  /* border: 3px solid green; */
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+#carouselpreso{
+  margin: 0;
+  min-width: 300px;
+  vertical-align: middle;
+  /* border: 3px solid blue; */
+  /* position: absolute; */
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.row{
+  /* border: yellow solid; */
+}
+.carousel-inner{
+  border: black solid 5px;
+  background-color: whitesmoke;
+}
+.presoheadl .presoheadr{
+  /* min-height: fit-content; */
+  height: 20vh;
+}
+.presobody{
+  height: 30vh ;
+  /* border:solid 3px blue; */
+  /* min-height: max-content; */
+}
+.font-size-xx-large{
+  /* font-family: 'Montserrat Alternates', sans-serif; */
+  font-family: 'Space Mono', monospace;
+  /* font-size: x-large !important; */
+
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .font-size-xx-large {
+    font-size: 24px !important;
+  }
+}
+@media screen and (min-width: 601px) {
+  .font-size-respo {
+    font-size: 32px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .font-size-xx-large, .fa-solid {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .font-size-respo, .fa-solid {
+    font-size: 24px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .font-size-respo, .fa-solid {
+    font-size: 16px !important;
+  }
+}
+
+.h2{
+  text-decoration: none;
+  text-transform: uppercase !important;
+  letter-spacing: 3px;
+  /* font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Press Start 2P', cursive; */
+
+}
+.white{
+  color: white;
+}
+
+.presoheadl{
+  border-bottom: black solid 3px;
+}
+.presoheadr{
+  margin: none;
+  border-bottom: black solid 3px;
+  border-left: black solid 3px;
+  /* border-right: black solid 3px; */
+  /* background-color: black !important; */
+  /* border-left: none; */
+  text-align: center;
+  align-items: center;
+}
+.bg-danger{
+  background-color: black !important;
+}
+.bgblack{
+  background-color: black;
+}
+
+.fa-solid{
+  /* font-size: 80%; */
+  /* border: solid red; */
+}
+.center{
+  text-align: center;
+}
+#black{
+  color: black;
+}
+
+.carousel .carousel-control-prev{
+  top: 70%;
+}
+.carousel .carousel-control-next{
+  top: 70%;
+}
+.header{
+  /* color: red; */
+  /* font-family: 'Montserrat Alternates', sans-serif; */
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16;
+  /* font-family: 'Space Mono', monospace; */
+  letter-spacing: 5px;
+
+}
+#navbarheader{
+  border: solid black 5px;
+}
